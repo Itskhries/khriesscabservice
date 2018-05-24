@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.khriesscabservice.MainActivity">
+
+    <TextView
+        android:id="@+id/welcome_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#edc951"
+        android:text="Hello! Welcome to Khrie's Cab service, We are opened at 12:00 and located at where ever you need a ride!"
+        android:textColor="#f0fffa"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/taxicab"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <TextView
+        android:id="@+id/warning_text_veiw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Warning we are not responsible for any missing items including clothes, money, wallets, or kids."
+        android:textColor="#f0fffa"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
